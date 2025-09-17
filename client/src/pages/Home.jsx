@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import api from '../services/Api';
+import RestaurantCard from '../components/RestaurantCard';
 
 function Home() {
   const [restaurants, setRestaurants] = useState([]);
